@@ -1,0 +1,22 @@
+2025/08/09 08:05:58.050  2284  2284 GT   Logger started.
+2025/08/09 08:05:58.050  2284  2284 GT   Found 0 stack dump files ...
+2025/08/09 08:05:58.050  2284  2284 GT   Found 0 core dump files ...
+2025/08/09 08:05:58.052  2284  2284 GT   systemd: logind service available
+2025/08/09 08:05:58.053  2284  2284 GT   systemd: New seat seat0 [path=/org/freedesktop/login1/seat/seat0, activeSession='', canGraphical=0, canTTY=1, canMultiSession=0]
+2025/08/09 08:05:58.053  2284  2284 GT   LogindSessionInfo: New session LogindSessionInfo [id=c2 user=ubuntu state=user active=1 reliable=1 infoId=3353246491] [path=/org/freedesktop/login1/session/c2 TTY=pts/1 seat= display= vtnr=4294967295 owner=[SysUser: ubuntu [uid=1000, gid=1000 home=/home/ubuntu gecos= shell=/bin/bash]] idle=0(1754741157568545) active=1 type=tty class=user state=active timestamp=1754740992581428 service=su defaultCG= leader=1071 audit=4294967295 remote=0 rHost= rUser=root killProc=0]
+2025/08/09 08:05:58.054  2284  2284 GT   LogindSessionInfo: New session LogindSessionInfo [id=c1 user=ubuntu state=background active=1 reliable=1 infoId=1591159457] [path=/org/freedesktop/login1/session/c1 TTY= seat= display= vtnr=4294967295 owner=[SysUser: ubuntu [uid=1000, gid=1000 home=/home/ubuntu gecos= shell=/bin/bash]] idle=0(0) active=1 type=unspecified class=background state=active timestamp=1754740956000176 service=su-l defaultCG= leader=834 audit=4294967295 remote=0 rHost= rUser=root killProc=0]
+2025/08/09 08:05:58.055  2284  2284 GT   SysSessionInfoManager: observing sessions from logind is marked as reliable
+2025/08/09 08:05:58.055  2284  2284 GT   SysSessionInfoManager: Session Information provided by VT [priority: 1]
+2025/08/09 08:05:58.055  2284  2284 GT!  FrameBuffer: Cannot access /dev/fb0, frame buffer support unavailable
+2025/08/09 08:05:58.055  2284  2284 GT   SysSessionInfoManager::SessionAdded: adding session TerminalSession: su [SysSession 3353246491 [type=T vt=4294967295 tty=pts/1 pseudotty=1 info=1 id=c2 user=ubuntu state=user active=1 reliable=1]]
+2025/08/09 08:05:58.056  2284  2284 GT   SysSessionInfoManager::GetOwnProcessSession: own session cache set to '3353246491'
+2025/08/09 08:05:58.060  2284  2284 GT   InterProcessConfigurationHub::SendToConfigurationHandler(): IPC not available, could not send command: CC=1 CT=110
+2025/08/09 08:05:58.060  2284  2284 GT   InterProcessBase::SecureNetwork created
+2025/08/09 08:05:58.063  2284  2284 GT   Loaded language 'en', using locale 'en'
+2025/08/09 08:05:58.063  2284  2284 GT   tvaccount::Detail::TvFullCredentialCache::TvFullCredentialCache(const tvaccount::Detail::ILoginKeyStorageStrategyPtr&): Loading data. PW: 0, Token: 0, Name: 0, ID: 0
+2025/08/09 08:05:58.063  2284  2284 GT   MDV2: IsDeviceManagementEnabled: mdv2: 1 management: 0
+2025/08/09 08:05:58.064  2284  2284 GT   VoIP: Constructor
+2025/08/09 08:05:58.064  2284  2284 GT   Running on Qt 5.15.16
+2025/08/09 08:05:58.070  2284  2284 GT!!!Crash: stack dump has been written at '/home/ubuntu/.local/share/teamviewer15/logfiles/TeamViewer_FI_15.68.5_2025-08-09-080558.amd64.stack', Errorcode=2
+2025/08/09 08:05:59.552  2284  2284 GT!!!Crash: Coredump has been written at '/home/ubuntu/.local/share/teamviewer15/logfiles/TeamViewer_FI_15.68.5_2025-08-09-080558.amd64.core', Errorcode=11
+2025/08/09 08:05:59.552  2284  2284 GT   Process received fatal SIGABRT

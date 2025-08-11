@@ -1,0 +1,21 @@
+{"level":"info","ts":1754740955.803072,"caller":"cmd/pull.go:12","msg":"Pulling state from remote storage"}
+{"level":"info","ts":1754740955.8032475,"caller":"cmd/pull.go:16","msg":"Pull is not allowed, waiting for config change"}
+{"level":"warn","ts":1754740955.8040192,"caller":"utils/utils.go:23","msg":"Failed to fetch CDP WebSocket URL, will retry","error":"Get \"http://localhost:9222/json/version\": dial tcp [::1]:9222: connect: connection refused"}
+{"level":"warn","ts":1754740956.3055663,"caller":"utils/utils.go:23","msg":"Failed to fetch CDP WebSocket URL, will retry","error":"Get \"http://localhost:9222/json/version\": dial tcp [::1]:9222: connect: connection refused"}
+{"level":"warn","ts":1754740956.8068876,"caller":"utils/utils.go:23","msg":"Failed to fetch CDP WebSocket URL, will retry","error":"Get \"http://localhost:9222/json/version\": dial tcp [::1]:9222: connect: connection refused"}
+{"level":"warn","ts":1754740957.308053,"caller":"utils/utils.go:23","msg":"Failed to fetch CDP WebSocket URL, will retry","error":"Get \"http://localhost:9222/json/version\": dial tcp [::1]:9222: connect: connection refused"}
+{"level":"warn","ts":1754740957.8097947,"caller":"utils/utils.go:23","msg":"Failed to fetch CDP WebSocket URL, will retry","error":"Get \"http://localhost:9222/json/version\": dial tcp [::1]:9222: connect: connection refused"}
+{"level":"warn","ts":1754740958.3109596,"caller":"utils/utils.go:23","msg":"Failed to fetch CDP WebSocket URL, will retry","error":"Get \"http://localhost:9222/json/version\": dial tcp [::1]:9222: connect: connection refused"}
+{"level":"warn","ts":1754740958.8121867,"caller":"utils/utils.go:23","msg":"Failed to fetch CDP WebSocket URL, will retry","error":"Get \"http://localhost:9222/json/version\": dial tcp [::1]:9222: connect: connection refused"}
+{"level":"warn","ts":1754740959.3221872,"caller":"utils/utils.go:23","msg":"Failed to fetch CDP WebSocket URL, will retry","error":"Get \"http://localhost:9222/json/version\": dial tcp [::1]:9222: connect: connection refused"}
+{"level":"info","ts":1754740960.6440058,"caller":"watcher/cdp_watcher.go:99","msg":"Watching targets"}
+{"level":"info","ts":1754740960.7422197,"caller":"watcher/cdp_watcher.go:117","msg":"Initial target found","targetID":"B4E7820541204376BF17F3AA711E62D0"}
+{"level":"info","ts":1754740960.743891,"caller":"watcher/cdp_watcher.go:143","msg":"Target info changed","targetID":"B4E7820541204376BF17F3AA711E62D0"}
+{"level":"info","ts":1754740962.7450745,"caller":"cmd/run.go:71","msg":"Put is not allowed"}
+{"level":"info","ts":1754740963.0008578,"caller":"watcher/cdp_watcher.go:143","msg":"Target info changed","targetID":"27C22B1E4EC5133800E7F69721E82958"}
+{"level":"info","ts":1754740963.5255969,"caller":"watcher/cdp_watcher.go:143","msg":"Target info changed","targetID":"27C22B1E4EC5133800E7F69721E82958"}
+{"level":"info","ts":1754740963.746514,"caller":"cmd/run.go:71","msg":"Put is not allowed"}
+{"level":"info","ts":1754740964.7486691,"caller":"cmd/run.go:71","msg":"Put is not allowed"}
+{"level":"info","ts":1754740970.7574875,"caller":"cmd/run.go:71","msg":"Put is not allowed"}
+{"level":"info","ts":1754740977.7690656,"caller":"cmd/run.go:71","msg":"Put is not allowed"}
+{"level":"info","ts":1754951763.5015106,"caller":"cmd/run.go:71","msg":"Put is not allowed"}
